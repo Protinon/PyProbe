@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name='PyProbe',
   packages=['pyprobe'],
-  version="0.1.0"
+  version="0.1.0",
   license='MIT',
   description='Extract metadata from video files using ffprobe or mediainfo',
   author='Protinon',

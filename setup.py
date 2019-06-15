@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open("README.md", "r") as ld:
     long_description = ld.read()
@@ -6,7 +6,7 @@ with open("README.md", "r") as ld:
 setup(
     name='PyProbe',
     packages=['pyprobe'],
-    version="0.1.0",
+    version="0.1.1",
     license='MIT',
     description='Extract metadata from video files using ffprobe or mediainfo',
     long_description=long_description,
@@ -15,8 +15,7 @@ setup(
     author_email='Protinon99@gmail.com',
     url='https://github.com/Protinon/PyProbe',
     keywords=['ffprobe', 'mediainfo', 'parser', 'video'],
-    install_requires=[],
-    python_requires='Python 3',
+    python_requires='>=3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Natural Language :: English',

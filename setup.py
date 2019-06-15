@@ -6,7 +6,7 @@ with open("README.md", "r") as ld:
 setup(
     name='PyProbe',
     packages=['pyprobe'],
-    version="0.1.1",
+    version="0.1.2",
     license='MIT',
     description='Extract metadata from video files using ffprobe or mediainfo',
     long_description=long_description,

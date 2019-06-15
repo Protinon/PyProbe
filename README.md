@@ -42,7 +42,7 @@ There are also two helper functions provided to create more nicely formatted dat
     "path": str,
     "bit_rate": int,
     "duration": float,
-    "size": str,
+    "size": int,
     "videos": [
         {
             "aspect_ratio": str,
